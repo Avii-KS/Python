@@ -1,0 +1,5 @@
+n = int(input())
+arr = list(map(int, input().split()))
+first_element = arr.pop(0)
+arr.append(first_element)
+print(*arr)
